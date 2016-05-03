@@ -1,0 +1,34 @@
+<div class="container" ng-controller="BadDomains_ListCtrl">
+
+    <div>
+        <a ui-sref="bad-domain-add">Create New</a>
+    <div>
+
+    <form>
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                <input type="text" class="form-control" placeholder="Search Domain" ng-model="searchDomain">
+            </div>
+        </div>
+    </form>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <td>
+                    Name
+                </td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr ng-repeat="domain in domains | orderBy:sortType | filter:searchDomain">
+                <td>{{ domain.name }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+

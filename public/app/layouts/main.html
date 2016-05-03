@@ -1,0 +1,22 @@
+<!-- Main navigation section
+================================================== -->
+<nav>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <ng-include src="'app/view-parts/menu.html'"></ng-include>
+        </div>
+    </div>
+</nav>
+
+<!-- Content section
+================================================== -->
+<section class="content no-padding_">
+    <div ui-view="content"></div>
+</section>
+
+<!-- Footer section
+================================================== -->
+<footer id="footer" class="text-center">
+    <ng-include src="'app/view-parts/footer.html'"></ng-include>
+</footer>
+<!-- End of Footer -->

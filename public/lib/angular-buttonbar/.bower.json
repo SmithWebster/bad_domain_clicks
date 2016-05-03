@@ -1,0 +1,13 @@
+{
+  "name": "angular-buttonbar",
+  "homepage": "https://github.com/subash1/angular-buttonbar",
+  "_release": "927b8f72a2",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "927b8f72a2de77b1a146fc6592c3a66b9a1526cd"
+  },
+  "_source": "https://github.com/subash1/angular-buttonbar.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/subash1/angular-buttonbar.git"
+}

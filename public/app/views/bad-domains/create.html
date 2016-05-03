@@ -1,0 +1,25 @@
+<div ng-controller="BadDomains_CreateCtrl">
+    <form name="badDomainCreate">
+        <div ng-show="!message">
+            <div>
+                <label>
+                    <span>Domain Name:</span>
+                    <input type="text" ng-model="form.domainName" />
+                </label>
+            </div>
+
+            <div>
+                <button ng-click="createDomain()" ng-disabled="!form.domainName">Create</button>
+            </div>
+        </div>
+
+        <div ng-show="message">
+            <div>
+                <span>{{ message }}</span>
+            </div>
+            <div>
+                <a ui-sref="bad-domains">Back</a>
+            </div>
+        </div>
+    </form>
+</div>

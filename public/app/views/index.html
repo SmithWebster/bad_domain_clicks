@@ -1,0 +1,45 @@
+<div class="container" ng-controller="IndexCtrl">
+
+    <form>
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                <input type="text" class="form-control" placeholder="Search click" ng-model="searchClick">
+            </div>
+        </div>
+    </form>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <td>
+                    User Agent
+                </td>
+                <td>
+                    IP
+                </td>
+                <td>
+                    Referer
+                </td>
+                <td>
+                    Param 1
+                </td>
+                <td>
+                    Param 2
+                </td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr ng-repeat="click in clicks | orderBy:sortType | filter:searchClick">
+                <td>{{ click.ua }}</td>
+                <td>{{ click.ip }}</td>
+                <td>{{ click.ref }}</td>
+                <td>{{ click.param1 }}</td>
+                <td>{{ click.param2 }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+

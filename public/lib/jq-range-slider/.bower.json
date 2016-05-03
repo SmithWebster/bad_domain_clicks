@@ -1,0 +1,38 @@
+{
+  "name": "jq-range-slider",
+  "main": "jQRangeSlider.js",
+  "homepage": "https://github.com/TeletronicsDotAe/jQRangeSlider",
+  "version": "5.7.1",
+  "authors": [
+    "Waleed Tayeb <waleed.t.alrais@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jquery",
+    "range",
+    "slider"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "jquery-ui": "~1.11.2"
+  },
+  "_release": "5.7.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.7.1",
+    "commit": "f392cff2f61db11ac108cac6fe623b1a61bfd78a"
+  },
+  "_source": "git://github.com/TeletronicsDotAe/jQRangeSlider.git",
+  "_target": "*",
+  "_originalSource": "jq-range-slider"
+}

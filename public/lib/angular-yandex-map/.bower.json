@@ -1,0 +1,17 @@
+{
+  "name": "ya-map",
+  "version": "1.0.9",
+  "dependencies": {
+    "angular": "~1.0.3"
+  },
+  "homepage": "https://github.com/tulov/angular-yandex-map",
+  "_release": "1.0.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.9",
+    "commit": "9d4670f327e61e570178161122184b33dfb6d0e2"
+  },
+  "_source": "git://github.com/tulov/angular-yandex-map.git",
+  "_target": "*",
+  "_originalSource": "angular-yandex-map"
+}

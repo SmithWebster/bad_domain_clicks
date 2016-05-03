@@ -1,0 +1,49 @@
+{
+    "name": "Bad Domain Clicks",
+    "version": "0.1",
+    "main": "index.html",
+    "ignore": [
+        "**/.*",
+        "libs"
+    ],
+    "dependencies": {
+        "angular": "latest",
+
+        "angular-route": "latest",
+        "angular-cookies": "latest",
+        "angular-ui-router": "latest",
+        "angular-load": "latest",
+        "angular-material": "latest",
+        "angular-loading-bar": "latest",
+        "angular-noty": "latest",
+        "angular-waypoints": "latest",
+        "ng-mask": "latest",
+        "ngDialog": "latest",
+        "angular-translate": "latest",
+        "angular-i18n": "latest",
+        "angular-resource": "latest",
+        "angular-sanitize": "latest",
+        "angular-touch": "latest",
+
+        "angular-translate-loader-static-files": "latest",
+        "angular-translate-storage-cookie": "latest",
+        "angular-translate-storage-local": "latest",
+        "angular-translate-handler-log": "latest",
+        "angular-dynamic-locale": "latest",
+
+        "bootstrap": "latest",
+        "requirejs": "latest",
+        "requirejs-domready": "latest",
+        "jquery": "latest",
+        "jquery-ui": "latest",
+        "bower-jvectormap": "latest",
+        "bootstrap-datepicker": "latest",
+        "ngprogress": "latest",
+        "at-table": "latest",
+        "jquery.easy-pie-chart": "latest",
+        "angular-isotope": "latest",
+        "ngActivityIndicator": "latest",
+        "loaders.css": "latest",
+        "ng-flags": "latest"
+    }
+}

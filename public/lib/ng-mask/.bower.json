@@ -1,0 +1,27 @@
+{
+  "name": "ng-mask",
+  "main": "ng-mask-1.0.1.min.js",
+  "license": "Apache License",
+  "ignore": [
+    "**/.*",
+    "build",
+    "speed",
+    "test",
+    "*.md"
+  ],
+  "keywords": [
+    "mask",
+    "ng-mask",
+    "formatter"
+  ],
+  "homepage": "https://github.com/miamarti/ng-mask",
+  "_release": "cf7ec55a87",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "cf7ec55a870f81f81438b6e9a0b179e50bdb153d"
+  },
+  "_source": "git://github.com/miamarti/ng-mask.git",
+  "_target": "*",
+  "_originalSource": "ng-mask"
+}

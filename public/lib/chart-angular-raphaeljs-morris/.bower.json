@@ -1,0 +1,19 @@
+{
+  "name": "chart-angular-raphaeljs-morris",
+  "main": "./src/directives/chartangular.js",
+  "dependencies": {
+    "angular": "~1.4.5",
+    "raphael": "2.1.2",
+    "morris.js": "0.5.0"
+  },
+  "homepage": "https://github.com/BilalBudhani/ChartAngular",
+  "_release": "3f8eea38f0",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "3f8eea38f0305ec0fdc27324206b8c080d312e6e"
+  },
+  "_source": "git://github.com/BilalBudhani/ChartAngular.git",
+  "_target": "*",
+  "_originalSource": "chart-angular-raphaeljs-morris"
+}
