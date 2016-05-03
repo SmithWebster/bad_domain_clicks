@@ -119,7 +119,6 @@ class Clicks extends \Phalcon\Mvc\Model
 
     public function getRefDomain() {
         $domain = null;
-        $domain = 'http://example.com/test/url?param=22';
         if (!$this->ref) {
             return null;
         }
